@@ -93,7 +93,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f514b7e9f4b4f4a448df8556606691c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  getSound: {fileID: 8300000, guid: 75f3d72a5e935407180795d0b01e61bc, type: 3}
   effectPrefab: {fileID: 100000, guid: 33e699e7f450bcd4b93af87907df6869, type: 2}
 --- !u!136 &136053289417708284
 CapsuleCollider:

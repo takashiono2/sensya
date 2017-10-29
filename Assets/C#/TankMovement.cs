@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class TankMovement : MonoBehaviour {
 	//変数をmoveSpeed,turnSpeed,movementInputValue,turnInputValueとする
@@ -17,10 +18,9 @@ public class TankMovement : MonoBehaviour {
 	}
 	//MoveとTurnした時
 	void Update () {
-		Move();
-		Turn();
-	}
-
+			Move ();
+			Turn ();
+		}
 	// 前進・後退のメソッド
 	void Move(){
 		movementInputValue = Input.GetAxis("Vertical");
@@ -34,5 +34,6 @@ public class TankMovement : MonoBehaviour {
 		Quaternion turnRotation = Quaternion.Euler(0, turn, 0);
 		//MoveRotationを使う
 		rb.MoveRotation(rb.rotation * turnRotation);
+	
 	}
 }

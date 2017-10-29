@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class ShotShell : MonoBehaviour {
-	//shellPrefab,shotSpeed,shotSound,shotCount,shellLabel,timeBetweenShot=0.35f,timerを設定
+	//shellPrefab,shotSpeed,shotCount,shellLabel,timeBetweenShot=0.35f,timerを設定
 	public GameObject shellPrefab;
 	public float shotSpeed;
 	public int shotCount;

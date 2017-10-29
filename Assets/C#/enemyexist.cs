@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class enemyexist: MonoBehaviour {
+public class Enemyexist: MonoBehaviour {
 
 		public GameObject enemyPrefab;
 		GameObject[] existEnemys;
 		//アクティブ最大数
-		public int maxEnemy = 2;
+		public int maxEnemy ;
 
 		void Start () {
 			existEnemys = new GameObject[maxEnemy];
