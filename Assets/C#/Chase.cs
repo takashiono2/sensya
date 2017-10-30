@@ -11,10 +11,13 @@ public class Chase : MonoBehaviour {
 
 	void Start () {
 		agent = GetComponent<NavMeshAgent>();
+		target = GameObject.Find ("Tank");
 	}
 
 	void Update () {
-
-		agent.destination = target.transform.position;
+		if(agent.pathStatus != NavMeshPathStatus.PathInvalid) {
+			agent.destination = target.transform.position;
+		}
 	}
 }
+

@@ -1,23 +1,31 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/C#/Chase.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Game Jam Template/Scripts/ShowPanels.cs">
     <Files>
-      <File FileName="Assets/C#/enemyexist.cs" Line="16" Column="1" />
-      <File FileName="Assets/C#/Chase.cs" Line="13" Column="3" />
-      <File FileName="Assets/C#/GameStart.cs" Line="1" Column="1" />
-      <File FileName="Assets/C#/ShellItem.cs" Line="1" Column="1" />
-      <File FileName="Assets/C#/GameClearController.cs" Line="1" Column="1" />
-      <File FileName="Assets/C#/ChaseCamera.cs" Line="1" Column="1" />
-      <File FileName="Assets/C#/MainCamera.cs" Line="1" Column="1" />
+      <File FileName="Assets/C#/DestroyObject_blue.cs" Line="1" Column="1" />
+      <File FileName="Assets/C#/GameClearController_Main.cs" Line="1" Column="1" />
+      <File FileName="Assets/C#/Enemyexist.cs" Line="1" Column="1" />
+      <File FileName="Assets/C#/DestroyObject_red.cs" Line="1" Column="1" />
+      <File FileName="Assets/C#/Chase.cs" Line="1" Column="1" />
+      <File FileName="Assets/C#/Chase2.cs" Line="1" Column="1" />
       <File FileName="Assets/C#/Radar.cs" Line="1" Column="1" />
-      <File FileName="Assets/C#/HPItem.cs" Line="1" Column="1" />
-      <File FileName="Assets/C#/CameraController.cs" Line="1" Column="1" />
-      <File FileName="Assets/C#/TankMovement.cs" Line="1" Column="1" />
-      <File FileName="Assets/C#/EnemyShotShell.cs" Line="1" Column="1" />
-      <File FileName="Assets/C#/ScoreManager.cs" Line="1" Column="1" />
-      <File FileName="Assets/C#/EnemyMove.cs" Line="1" Column="1" />
-      <File FileName="Assets/C#/ShotShell.cs" Line="16" Column="1" />
       <File FileName="Assets/C#/TankHealth.cs" Line="1" Column="1" />
+      <File FileName="Assets/C#/GameClearController_Main3.cs" Line="1" Column="1" />
+      <File FileName="Assets/C#/TankMovement.cs" Line="1" Column="1" />
+      <File FileName="Assets/C#/GameClearController_Main2.cs" Line="1" Column="1" />
+      <File FileName="Assets/C#/ShotShell.cs" Line="1" Column="1" />
+      <File FileName="Assets/C#/GameStart_Main.cs" Line="6" Column="28" />
+      <File FileName="Assets/C#/HPItem.cs" Line="1" Column="1" />
+      <File FileName="Assets/C#/MainCamera.cs" Line="1" Column="1" />
+      <File FileName="Assets/C#/GameStart_Main2.cs" Line="15" Column="1" />
+      <File FileName="Assets/C#/GameStart_Main3.cs" Line="12" Column="4" />
+      <File FileName="Assets/Game Jam Template/Scripts/EventSystemChecker.cs" Line="1" Column="1" />
+      <File FileName="Assets/Game Jam Template/Scripts/Pause.cs" Line="1" Column="1" />
+      <File FileName="Assets/Game Jam Template/Scripts/ShowPanels.cs" Line="1" Column="1" />
+      <File FileName="Assets/Game Jam Template/Scripts/SetAudioLevels.cs" Line="1" Column="1" />
+      <File FileName="Assets/Game Jam Template/Scripts/QuitApplication.cs" Line="1" Column="1" />
+      <File FileName="Assets/Game Jam Template/Scripts/PlayMusic.cs" Line="1" Column="1" />
+      <File FileName="Assets/Game Jam Template/Scripts/DontDestroy.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

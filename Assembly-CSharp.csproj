@@ -53,18 +53,23 @@
   <ItemGroup>
      <Compile Include="Assets\C#\CameraController.cs" />
      <Compile Include="Assets\C#\Chase.cs" />
+     <Compile Include="Assets\C#\Chase2.cs" />
      <Compile Include="Assets\C#\ChaseCamera.cs" />
-     <Compile Include="Assets\C#\DestroyObject.cs" />
+     <Compile Include="Assets\C#\DestroyObject_blue.cs" />
+     <Compile Include="Assets\C#\DestroyObject_red.cs" />
      <Compile Include="Assets\C#\Enemyexist.cs" />
      <Compile Include="Assets\C#\EnemyMove.cs" />
      <Compile Include="Assets\C#\EnemyShotShell.cs" />
-     <Compile Include="Assets\C#\GameClearController.cs" />
-     <Compile Include="Assets\C#\GameStart.cs" />
+     <Compile Include="Assets\C#\GameClearController_Main.cs" />
+     <Compile Include="Assets\C#\GameClearController_Main2.cs" />
+     <Compile Include="Assets\C#\GameClearController_Main3.cs" />
+     <Compile Include="Assets\C#\GameStart_Main.cs" />
+     <Compile Include="Assets\C#\GameStart_Main2.cs" />
+     <Compile Include="Assets\C#\GameStart_Main3.cs" />
      <Compile Include="Assets\C#\HPItem.cs" />
      <Compile Include="Assets\C#\MainCamera.cs" />
      <Compile Include="Assets\C#\Radar.cs" />
      <Compile Include="Assets\C#\ScoreManager.cs" />
-     <Compile Include="Assets\C#\ShellItem.cs" />
      <Compile Include="Assets\C#\ShotShell.cs" />
      <Compile Include="Assets\C#\TankHealth.cs" />
      <Compile Include="Assets\C#\TankMovement.cs" />
@@ -72,7 +77,17 @@
      <Compile Include="Assets\Explosion System\Scripts\GraphicExplosion.cs" />
      <Compile Include="Assets\Explosion System\Scripts\light_control.cs" />
      <Compile Include="Assets\Explosion System\Scripts\PhysicalExplosion.cs" />
+     <Compile Include="Assets\Game Jam Template\Scripts\DontDestroy.cs" />
+     <Compile Include="Assets\Game Jam Template\Scripts\EventSystemChecker.cs" />
+     <Compile Include="Assets\Game Jam Template\Scripts\Pause.cs" />
+     <Compile Include="Assets\Game Jam Template\Scripts\PlayMusic.cs" />
+     <Compile Include="Assets\Game Jam Template\Scripts\QuitApplication.cs" />
+     <Compile Include="Assets\Game Jam Template\Scripts\SetAudioLevels.cs" />
+     <Compile Include="Assets\Game Jam Template\Scripts\ShowPanels.cs" />
+     <Compile Include="Assets\Game Jam Template\Scripts\StartOptions.cs" />
      <None Include="Assets\Explosion System\Shader\Exposion.shader" />
+     <None Include="Assets\Game Jam Template\Fonts\OpenSans\License!.txt" />
+     <None Include="Assets\Game Jam Template\GameJamTemplateReadMe.txt" />
  <Reference Include="UnityEngine.Analytics">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>

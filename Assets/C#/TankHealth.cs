@@ -9,7 +9,7 @@ public class TankHealth : MonoBehaviour {
 	public GameObject effectPrefab2;
 	public int tankHP;
 	public Text HPLabel;
-	private float deadlineY = -20.0f;
+	private float deadlineY = -15.0f;
 	void Start(){
 		HPLabel.text = "HP:" + tankHP;
 
@@ -37,13 +37,12 @@ public class TankHealth : MonoBehaviour {
 	void Update(){
 		if(this.transform.position.y < this.deadlineY){
 			this.gameObject.SetActive(false);
-			Invoke ("GoToGameOver", 2.0f);
+			Invoke ("GoToGameOver", 1.5f);
 		}	
 	}
-	public void GoToGameOver(){
-		string Main2 = SceneManager.GetActiveScene().name;
-		SceneManager.LoadScene(Main2);
 
+	public void GoToGameOver(){
+		SceneManager.LoadScene ("GameOver");
 	}
 
 	public void AddHP(int amount){

@@ -8,12 +8,10 @@ public class HPItem : MonoBehaviour {
 	private TankHealth th;
 	private int reward = 3;
 
-
 	void OnTriggerEnter(Collider other){
 		if (other.gameObject.tag == "Player") {
-
 			th = GameObject.Find ("Tank").GetComponent<TankHealth> ();
-
+	
 			th.AddHP (reward);
 
 			Destroy (gameObject);
