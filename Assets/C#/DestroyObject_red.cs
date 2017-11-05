@@ -10,16 +10,20 @@ public class DestroyObject_red: MonoBehaviour {
 	public GameObject dropItem;
 	public int scoreValue;  // これが敵を倒すと得られる点数になる
 	private ScoreManager sm;
+	private AudioSource EnemyAs;
+	public AudioClip EnemySE;
 	private float deadlineY = -5.0f;
 
 	void Start(){
 		// 「ScoreManagerオブジェクト」に付いている「ScoreManagerスクリプト」の情報を取得して「sm」の箱に入れる。
 		sm = GameObject.Find ("ScoreManager").GetComponent<ScoreManager> ();
+		EnemyAs = GetComponent<AudioSource> ();
 	}
 	//コライダーに反応,タグが"Shell"かどうか判別して、そうならobjectHPを-1減らす
 	void OnTriggerEnter(Collider other){
 		if (other.CompareTag ("Shell")) {
 			objectHP -= 1;
+			EnemyAs.PlayOneShot(EnemySE,0.5f);
 			//もしobjectHPが0より大きいなら変数effectにeffectPrefabを作り、2秒後に消去
 			if (objectHP > 0) {
 				Destroy (other.gameObject);

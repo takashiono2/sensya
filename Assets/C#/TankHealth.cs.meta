@@ -1,10 +1,15 @@
 fileFormatVersion: 2
 guid: e742cc69d25064e54bc0f93d6ad03e63
-timeCreated: 1508150425
+timeCreated: 1509812618
 licenseType: Free
 MonoImporter:
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - effectPrefab1: {fileID: 1000010608846784, guid: 6747b1742d70743a8aff8594e708b2f7,
+      type: 2}
+  - effectPrefab2: {fileID: 100000, guid: e0dc4d47bced6d54ab1461804114b5d0, type: 2}
+  - HPLabel: {instanceID: 0}
+  - ItemSE: {fileID: 8300000, guid: 7bd6b897eb5ca4b7d88a205c4a51640c, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

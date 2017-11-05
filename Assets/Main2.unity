@@ -761,8 +761,14 @@ Prefab:
       propertyPath: shellLabel
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 114625327744567446, guid: 40258fefd731c484dbc265f0c70a29f4,
+        type: 2}
+      propertyPath: ItemSE
+      value: 
+      objectReference: {fileID: 8300000, guid: 7bd6b897eb5ca4b7d88a205c4a51640c, type: 3}
     m_RemovedComponents:
     - {fileID: 114153121540416100, guid: 40258fefd731c484dbc265f0c70a29f4, type: 2}
+    - {fileID: 114625327744567446, guid: 40258fefd731c484dbc265f0c70a29f4, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 40258fefd731c484dbc265f0c70a29f4, type: 2}
   m_IsPrefabParent: 0
 --- !u!1001 &885394685
@@ -1317,6 +1323,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 038dcc2054ca44048a54e4406a6795b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1231008522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1231008519}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3479ed892bb7d4fa4bffc1fa7b23b129, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  effectPrefab1: {fileID: 1000010608846784, guid: 6747b1742d70743a8aff8594e708b2f7,
+    type: 2}
+  effectPrefab2: {fileID: 100000, guid: e0dc4d47bced6d54ab1461804114b5d0, type: 2}
+  tankHP: 10
+  HPLabel: {fileID: 1123332630}
+  ItemSE: {fileID: 8300000, guid: 7bd6b897eb5ca4b7d88a205c4a51640c, type: 3}
 --- !u!1 &1238426031
 GameObject:
   m_ObjectHideFlags: 0

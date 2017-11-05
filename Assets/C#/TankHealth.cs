@@ -10,23 +10,26 @@ public class TankHealth : MonoBehaviour {
 	public int tankHP;
 	public Text HPLabel;
 	private float deadlineY = -15.0f;
+
+	public AudioClip ItemSE;
+	private AudioSource ASItem;
+
 	void Start(){
 		HPLabel.text = "HP:" + tankHP;
-
 	}
+
 	void OnTriggerEnter(Collider other){
 		if(other.gameObject.tag == "EnemyShell"){
 			tankHP -= 1;
 			HPLabel.text = "HP:" + tankHP;
-
 			Destroy(other.gameObject);
 
 			if(tankHP > 0){
 				GameObject effect1 = (GameObject)Instantiate(effectPrefab1, transform.position, Quaternion.identity);
-				Destroy(effect1, 1.0f);
+				Destroy(effect1, 1.5f);
 			} else {
 				GameObject effect2 = (GameObject)Instantiate(effectPrefab2, transform.position, Quaternion.identity);
-				Destroy(effect2, 1.0f);
+				Destroy(effect2, 1.5f);
 
 				this.gameObject.SetActive(false);
 
@@ -34,22 +37,25 @@ public class TankHealth : MonoBehaviour {
 			}
 		}
 	}
+
 	void Update(){
 		if(this.transform.position.y < this.deadlineY){
 			this.gameObject.SetActive(false);
 			Invoke ("GoToGameOver", 1.5f);
 		}	
 	}
-
-	public void GoToGameOver(){
+		
+	void GoToGameOver(){
 		SceneManager.LoadScene ("GameOver");
 	}
-
+		
 	public void AddHP(int amount){
 		tankHP += amount;
 		if (tankHP > 10) {
 			tankHP = 10;
 		}
 		HPLabel.text = "HP:" + tankHP;
+		ASItem = GetComponent<AudioSource> ();
+		ASItem.PlayOneShot (ItemSE,0.5F);
 	}
 }
