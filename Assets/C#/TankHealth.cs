@@ -14,6 +14,8 @@ public class TankHealth : MonoBehaviour {
 	public AudioClip ItemSE;
 	private AudioSource ASItem;
 
+	private string key = "SCORE";
+
 	void Start(){
 		HPLabel.text = "HP:" + tankHP;
 	}
@@ -33,7 +35,7 @@ public class TankHealth : MonoBehaviour {
 
 				this.gameObject.SetActive(false);
 
-				Invoke("GoToGameOver", 1.5f);
+				Invoke("GoToGameOver", 1.0f);
 			}
 		}
 	}
@@ -46,6 +48,7 @@ public class TankHealth : MonoBehaviour {
 	}
 
 	void GoToGameOver(){
+		
 		if (SceneManager.GetActiveScene ().name == "Main") {
 			SceneManager.LoadScene ("GameOver");
 		} else if (SceneManager.GetActiveScene ().name == "Main2"){
@@ -53,6 +56,7 @@ public class TankHealth : MonoBehaviour {
 		} else if (SceneManager.GetActiveScene ().name == "Main3"){
 			SceneManager.LoadScene ("GameOver3");
 		}
+		PlayerPrefs.DeleteKey(key);
 	}
 
 	public void AddHP(int amount){
