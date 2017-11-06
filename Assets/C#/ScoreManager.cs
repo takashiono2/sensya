@@ -5,20 +5,25 @@ using UnityEngine.UI;
 
 public class ScoreManager : MonoBehaviour {
 
-	private int score = 0;
+	private int score ;
 	private Text scoreLabel;
+	private string key = "SCORE";
+
 
 	void Start () {
-
+		score = PlayerPrefs.GetInt (key, 0);
 		scoreLabel = GameObject.Find ("ScoreLabel").GetComponent<Text> ();
 		scoreLabel.text = "SCORE：" + score;
 	}
 
-	// スコアを増加させるメソッド
-	// 外部からアクセスするためpublicで定義する
+	void Update(){
+		PlayerPrefs.SetInt(key,score);
+	}
+	
 	public void AddScore(int amount){
 
 		score += amount;
 		scoreLabel.text = "SCORE：" + score;
 	}
+
 }

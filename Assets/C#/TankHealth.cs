@@ -44,11 +44,17 @@ public class TankHealth : MonoBehaviour {
 			Invoke ("GoToGameOver", 1.5f);
 		}	
 	}
-		
+
 	void GoToGameOver(){
-		SceneManager.LoadScene ("GameOver");
+		if (SceneManager.GetActiveScene ().name == "Main") {
+			SceneManager.LoadScene ("GameOver");
+		} else if (SceneManager.GetActiveScene ().name == "Main2"){
+			SceneManager.LoadScene ("GameOver2");
+		} else if (SceneManager.GetActiveScene ().name == "Main3"){
+			SceneManager.LoadScene ("GameOver3");
+		}
 	}
-		
+
 	public void AddHP(int amount){
 		tankHP += amount;
 		if (tankHP > 10) {

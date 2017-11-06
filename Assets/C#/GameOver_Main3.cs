@@ -3,7 +3,7 @@ using System.Collections;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class GameOver_Main : MonoBehaviour {
+public class GameOver_Main3 : MonoBehaviour {
 
 	private GameObject timeText;
 	private float timecount = 10;
@@ -23,7 +23,7 @@ public class GameOver_Main : MonoBehaviour {
 
 	public void GetMouseSceneButtonDown(){
 		if ((Input.GetMouseButtonDown (0) || this.isButtonDown ) && timecount > 0) {
-			SceneManager.LoadScene ("Main");
+			SceneManager.LoadScene ("Main3");
 			Destroy (gameObject);
 		}
 	}
@@ -42,4 +42,3 @@ public class GameOver_Main : MonoBehaviour {
 		GameObject.Find ("Push").GetComponent<Text> ().text =" " ;
 	}
 }
-

@@ -184,8 +184,8 @@ GameObject:
   - component: {fileID: 170456483}
   - component: {fileID: 170456482}
   - component: {fileID: 170456481}
-  - component: {fileID: 170456485}
   - component: {fileID: 170456484}
+  - component: {fileID: 170456485}
   m_Layer: 5
   m_Name: Start2
   m_TagString: Untagged
@@ -251,8 +251,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 170456481}
-        m_MethodName: SendMessage
+      - m_Target: {fileID: 0}
+        m_MethodName: 
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -314,7 +314,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 170456485}
-          m_MethodName: GetMain2ButtonDown
+          m_MethodName: GameStart2
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -335,7 +335,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 170456479}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bd8f6c664fdd04f4cb1907658acc2e77, type: 3}
+  m_Script: {fileID: 11500000, guid: f570fe27c79f94a9e83f2d9015e5c79d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &193296218
@@ -349,8 +349,8 @@ GameObject:
   - component: {fileID: 193296222}
   - component: {fileID: 193296221}
   - component: {fileID: 193296220}
-  - component: {fileID: 193296223}
   - component: {fileID: 193296224}
+  - component: {fileID: 193296223}
   m_Layer: 5
   m_Name: Start3
   m_TagString: Untagged
@@ -416,7 +416,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 193296223}
+      - m_Target: {fileID: 0}
         m_MethodName: GetMain3ButtonDown
         m_Mode: 1
         m_Arguments:
@@ -470,7 +470,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 193296218}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bd8f6c664fdd04f4cb1907658acc2e77, type: 3}
+  m_Script: {fileID: 11500000, guid: b1f4977bea0bb494dbfe833811a34cf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &193296224
@@ -490,7 +490,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 193296223}
-          m_MethodName: GetMain3ButtonDown
+          m_MethodName: GameStart3
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -677,8 +677,8 @@ GameObject:
   - component: {fileID: 937500653}
   - component: {fileID: 937500652}
   - component: {fileID: 937500651}
-  - component: {fileID: 937500655}
   - component: {fileID: 937500654}
+  - component: {fileID: 937500655}
   m_Layer: 5
   m_Name: Start
   m_TagString: Untagged
@@ -744,8 +744,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 937500651}
-        m_MethodName: SendMessage
+      - m_Target: {fileID: 0}
+        m_MethodName: 
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -807,7 +807,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 937500655}
-          m_MethodName: GetMain1ButtonDown
+          m_MethodName: GameStart
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -828,7 +828,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 937500649}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bd8f6c664fdd04f4cb1907658acc2e77, type: 3}
+  m_Script: {fileID: 11500000, guid: e0d24a05a34394933aeae2a151d581b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &942227540

@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 23637099331898734}
   - component: {fileID: 114751181152915318}
   m_Layer: 0
-  m_Name: HPItem 1
+  m_Name: HPItem2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

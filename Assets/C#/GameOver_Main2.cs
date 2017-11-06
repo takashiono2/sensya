@@ -39,5 +39,6 @@ public class GameOver_Main2 : MonoBehaviour {
 	public void GameOver () {
 		Destroy (gameObject);
 		GameObject.Find ("GameOverLabel").GetComponent<Text> ().text = " GameOver ";
+		GameObject.Find ("Push").GetComponent<Text> ().text =" " ;
 	}
 }
