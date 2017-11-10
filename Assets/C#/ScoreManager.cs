@@ -17,13 +17,13 @@ public class ScoreManager : MonoBehaviour {
 	}
 
 	void Update(){
-		PlayerPrefs.SetInt(key,score);
 	}
 	
 	public void AddScore(int amount){
 
 		score += amount;
 		scoreLabel.text = "SCORE：" + score;
+		PlayerPrefs.SetInt(key,score);
 	}
 
 }

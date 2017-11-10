@@ -73,7 +73,6 @@ GameObject:
   - component: {fileID: 4367799089366004}
   - component: {fileID: 114992821718357346}
   - component: {fileID: 65133701393436704}
-  - component: {fileID: 114638168874277224}
   - component: {fileID: 54217550095712716}
   m_Layer: 0
   m_Name: Enemy(gray)
@@ -178,6 +177,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -193,6 +193,7 @@ MeshRenderer:
   m_PreserveUVs: 1
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
   m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -210,6 +211,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -225,6 +227,7 @@ MeshRenderer:
   m_PreserveUVs: 1
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
   m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -242,6 +245,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -257,6 +261,7 @@ MeshRenderer:
   m_PreserveUVs: 1
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
   m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -313,23 +318,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2, y: 0.8, z: 2}
   m_Center: {x: 0, y: 0.5, z: 0}
---- !u!114 &114638168874277224
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1627671234441682}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f8273091b76fb4216aaf879314f1e2ab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  effectPrefab: {fileID: 1000010608846784, guid: 6747b1742d70743a8aff8594e708b2f7,
-    type: 2}
-  effectPrefab2: {fileID: 100000, guid: e0dc4d47bced6d54ab1461804114b5d0, type: 2}
-  objectHP: 1
-  dropItem: {fileID: 0}
-  scoreValue: 50
 --- !u!114 &114832086834161978
 MonoBehaviour:
   m_ObjectHideFlags: 1

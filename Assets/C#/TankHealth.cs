@@ -55,6 +55,8 @@ public class TankHealth : MonoBehaviour {
 			SceneManager.LoadScene ("GameOver2");
 		} else if (SceneManager.GetActiveScene ().name == "Main3"){
 			SceneManager.LoadScene ("GameOver3");
+		} else if (SceneManager.GetActiveScene ().name == "Main4"){
+			SceneManager.LoadScene ("GameOver4");
 		}
 		PlayerPrefs.DeleteKey(key);
 	}

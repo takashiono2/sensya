@@ -9,7 +9,7 @@ public class DestroyObject_blue: MonoBehaviour {
 	public int objectHP;
 	public int scoreValue;  // これが敵を倒すと得られる点数になる
 	private ScoreManager sm;
-	private float deadlineY = -5.0f;
+	private float deadlineY = -11.0f;
 
 	void Start(){
 		// 「ScoreManagerオブジェクト」に付いている「ScoreManagerスクリプト」の情報を取得して「sm」の箱に入れる。

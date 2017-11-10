@@ -18,6 +18,9 @@ EditorBuildSettings:
     path: Assets/Scene_Group/Main3.unity
     guid: efa789cf8df194d25b9283c0424238a0
   - enabled: 1
+    path: Assets/Scene_Group/Main4.unity
+    guid: 5c544c9e9d955431fac53a8532b5a0d3
+  - enabled: 1
     path: Assets/Scene_Group/END_Title.unity
     guid: 03934e8ed94e9490d97aa571877ea3c3
   - enabled: 1
@@ -29,3 +32,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scene_Group/GameOver3.unity
     guid: 3f5fd484ec4eb43628a453d9b3f9898d
+  - enabled: 1
+    path: Assets/Scene_Group/GameOver4.unity
+    guid: ac415305f41924099a3ff2982bbbd1ae

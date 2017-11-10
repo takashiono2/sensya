@@ -12,7 +12,7 @@ public class DestroyObject_red: MonoBehaviour {
 	private ScoreManager sm;
 	private AudioSource EnemyAs;
 	public AudioClip EnemySE;
-	private float deadlineY = -5.0f;
+	private float deadlineY = -11.0f;
 
 	void Start(){
 		// 「ScoreManagerオブジェクト」に付いている「ScoreManagerスクリプト」の情報を取得して「sm」の箱に入れる。
