@@ -21,3 +21,11 @@
 /Users/takashiono/Desktop/sensya/Temp/bin/Debug/Assembly-CSharp.dll
 /Users/takashiono/Desktop/sensya/obj/Debug/Assembly-CSharp.dll
 /Users/takashiono/Desktop/sensya/obj/Debug/Assembly-CSharp.dll.mdb
+/Users/takashiono/Desktop/sensya/Temp/bin/Debug/UnityEngine.UIAutomation.dll
+/Users/takashiono/Desktop/sensya/Temp/bin/Debug/UnityEngine.GoogleAudioSpatializer.dll
+/Users/takashiono/Desktop/sensya/Temp/bin/Debug/UnityEngine.SpatialTracking.dll
+/Users/takashiono/Desktop/sensya/Temp/bin/Debug/Vuforia.UnityExtensions.dll
+/Users/takashiono/Desktop/sensya/Temp/bin/Debug/UnityEngine.Purchasing.dll
+/Users/takashiono/Desktop/sensya/Temp/bin/Debug/Unity.Cecil.dll
+/Users/takashiono/Desktop/sensya/Temp/bin/Debug/Unity.Cecil.Pdb.dll
+/Users/takashiono/Desktop/sensya/Temp/bin/Debug/Unity.Cecil.Mdb.dll

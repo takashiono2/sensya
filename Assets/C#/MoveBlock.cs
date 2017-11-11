@@ -3,17 +3,15 @@ using System.Collections;
 
 public class MoveBlock: MonoBehaviour {
 
-	private Vector3 initialPosition;
+	private Vector3 pos;
 
-	void Start () {
-
-		initialPosition = transform.position;
+	void Awake() {
+		pos = GetComponent<Transform> ().position;
 
 	}
 
-	void Update () {
-
-		transform.position = new Vector3(Mathf.Sin(Time.time) * 20.0f + initialPosition.x, initialPosition.y, initialPosition.z);
-
+	void FixedUpdate () {
+		Vector3 offset = new Vector3 (0,0,Mathf.Sin (Time.timeSinceLevelLoad) * 10.0f);
+		GetComponent<Rigidbody> ().MovePosition (pos + offset);
 	}
 }

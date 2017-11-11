@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿
+using UnityEngine;
 using System.Collections;
 
 public class MoveBlock2: MonoBehaviour {
@@ -13,7 +14,7 @@ public class MoveBlock2: MonoBehaviour {
 
 	void Update () {
 
-		transform.position = new Vector3(Mathf.Cos(Time.time) * 20.0f + initialPosition.x, initialPosition.y, initialPosition.z);
+		transform.position = new Vector3( Mathf.Cos(Time.timeSinceLevelLoad) * 10.0f, initialPosition.y,+initialPosition.z);
 
 	}
 }
